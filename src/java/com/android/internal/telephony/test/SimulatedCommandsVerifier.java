@@ -1350,4 +1350,9 @@ public class SimulatedCommandsVerifier implements CommandsInterface {
     public void getModemActivityInfo(Message result) {
 
     }
+
+    @Override
+    public boolean needsOldRilFeature(String feature) {
+    	return false;
+    }
 }
